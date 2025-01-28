@@ -44,20 +44,23 @@ untuk enviroment development dan pengujian
 ## 1. Upgrade Python Package Manager 
 
 <pre><code>
- python.exe -m pip install --upgrade --user pip
- </code></pre>
+ python.exe -m pip install --upgrade --user pip </code></pre>
+ 
+![ss](./ss/1. pip-pip3-version)
+
  
  
 ## 2. Install Package Libry Python web3
  
  <pre><code>
- pip install web3
- </code></pre>
+ pip install web3 </code></pre>
 
 
 ## 3. Install Ganache
 
 https://archive.trufflesuite.com/ganache/
+
+![Sss](./ss/sampe-create-request-get.png)
 
 
 ## Cara Kerja Penyimpan Data di BlockChain 
@@ -82,30 +85,21 @@ Berikut adalah proses umum bagaimana transaksi ditambahkan ke blockchain
 
 Untuk membuat server blockchain on-premises, Anda dapat menggunakan beberapa framework yang populer dan mendukung desentralisasi serta keamanan. Berikut adalah beberapa framework yang bisa Anda pertimbangkan:
 
-Hyperledger Fabric:
-
+1. Hyperledger Fabric:
 Hyperledger Fabric adalah platform blockchain yang dirancang untuk bisnis. Ini memungkinkan Anda untuk membuat jaringan permissioned (dengan izin) yang dapat diinstal di lingkungan on-premises2.
-
 Hyperledger Fabric mendukung modulitas dan dapat diintegrasikan dengan sistem bisnis yang ada.
 
-
-Ethereum:
-
+2. Ethereum:
 Ethereum juga dapat diinstal di lingkungan on-premises. Anda dapat menggunakan Ethereum untuk membuat aplikasi blockchain dan menjalankan smart contracts.
-
 Ethereum memerlukan node yang lebih besar untuk menyimpan dan memproses semua transaksi dalam jaringan.
 
 
-IBM Blockchain Platform:
-
+3. IBM Blockchain Platform:
 IBM Blockchain Platform mendukung instalasi di lingkungan on-premises. Anda dapat menggunakan platform ini untuk membangun dan mengelola jaringan blockchain di dalam perangkat keras Anda2.
-
 Platform ini mendukung Kubernetes dan OpenShift untuk pengelolaan cluster blockchain.
 
 
-SettleMint:
-
+4. SettleMint:
 SettleMint menawarkan solusi on-premises untuk pengembangan blockchain. Anda dapat menginstal dan menjalankan aplikasi blockchain di infrastruktur Anda sendiri3.
-
 SettleMint mendukung berbagai metode instalasi, termasuk air-gapped (tidak terhubung ke internet) dan Bring Your Own Cloud (BYOC)
 
