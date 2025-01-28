@@ -46,10 +46,8 @@ untuk enviroment development dan pengujian
 <pre><code>
  python.exe -m pip install --upgrade --user pip </code></pre>
  
-![Sampe Get API](./ss/1. pip-pip3-version)
+![ss](./ss/1-pip-pip3-version.png)
 
- 
- 
 ## 2. Install Package Libry Python web3
  
  <pre><code>
