@@ -46,7 +46,7 @@ untuk enviroment development dan pengujian
 <pre><code>
  python.exe -m pip install --upgrade --user pip </code></pre>
  
-![ss](./ss/1. pip-pip3-version)
+![Sampe Get API](./ss/1. pip-pip3-version)
 
  
  
