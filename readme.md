@@ -25,20 +25,21 @@ untuk enviroment development dan pengujian
 
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Directory Structure](#directory-structure)
-- [Installation](#installation)
-- [Run App](#run-app)
-- [API Postman](#API-Postmant)
-- [Simple Guide](#simple-guide)
-  - [Create Controller and Routing URL](#create-controller-and-routing-url)
-  - [Auto Migrate](#auto-migrate)
-  - [Populate Data](#populate-data)
-  - [Run Unit Test](#run-unit-test)
-- [Contact](#contact)
-- [License](#license)
-
- 
+- [1. Upgrade Python Package Manager](#1-upgrade-python-package-manager)
+- [2. Install Package Libry Python web3](#2-install-package-libry-python-web3)
+- [3. Install Ganache](#3-install-ganache)
+- [4. Ganache Dashboard](#4-ganache-dashboard)
+- [5. Ganache Check Service Port Running](#5-ganache-check-service-port-running)
+- [6. Python Web3 - Check Koneksi ke Ganache](#6-python-web3---check-koneksi-ke-ganache)
+- [7. Python Web3 - Check Saldo](#7-python-web3---check-saldo)
+- [8. Python Web3 - Transaction](#8-python-web3---transaction)
+- [9. Check & Analisa Blok](#9-check--analisa-blok)
+  - [9.1 Jumlah Blok bertambah setiap terjadi transaksi, bagian yg di stabilo kuning](#91-jumlah-blok-bertambah-setiap-terjadi-transaksi-bagian-yg-di-stabilo-kuning)
+  - [9.2 List Blok yg terbuat dan tersimpan di chain ketika terjadi transaksi](#92-list-blok-yg-terbuat-dan-tersimpan-di-chain-ketika-terjadi-transaksi)
+  - [9.3 List Transaction yg merupakan dasar pembuatan block](#93-list-transaction-yg-merupakan-dasar-pembuatan-block)
+  - [9.4 Detail blok berisikan data yg sudah di enkripsi dan diberikan sign signature hash](#94-detail-blok-berisikan-data-yg-sudah-di-enkripsi-dan-diberikan-sign-signature-hash)
+- [10. Cara Kerja Penyimpan Data di BlockChain](#10-cara-kerja-penyimpan-data-di-blockchain)
+- [11. Membuat Server Blockchain on-premise](#11-membuat-server-blockchain-on-premise)
  
  
 ## 1. Upgrade Python Package Manager 
