@@ -53,19 +53,73 @@ untuk enviroment development dan pengujian
  <pre><code>
  pip install web3 </code></pre>
 
+ ![ss](./ss/2-python-install-web3.png)
+ 
 
 ## 3. Install Ganache
 
 https://archive.trufflesuite.com/ganache/
 
-![Sss](./ss/sampe-create-request-get.png)
+![Sss](./ss/4-ganache-dowload.png)
+
+![Sss](./ss/6-ganache-install.png)
 
 
-## Cara Kerja Penyimpan Data di BlockChain 
+## 4. Ganache Dashboard
 
-Dalam jaringan Ethereum publik, setiap transaksi baru ditambahkan ke blok baru, dan blok tersebut ditambahkan ke blockchain. Proses ini terjadi di seluruh node dalam jaringan yang terdistribusi. Artinya, setiap node dalam jaringan Ethereum memiliki salinan lengkap dari seluruh blockchain, termasuk semua transaksi yang pernah terjadi.
+![Sss](./ss/7- ganache-check-port.png)
 
-Setiap kali transaksi baru dibuat dan dikonfirmasi, transaksi tersebut ditambahkan ke blok terbaru. Setelah blok tersebut berhasil ditambangkan dan ditambahkan ke blockchain, blok ini akan disebarkan ke semua node dalam jaringan. Semua node memperbarui salinan blockchain mereka untuk memasukkan blok baru ini.
+
+## 5. Ganache Check Service Port Running 
+
+![Sss](./ss/7-ganache-port.png)
+
+## 6. Python Web3 - Check Koneksi ke Ganache
+
+ <pre><code>
+ python test_connection.py  </code></pre>
+
+![Sss](./ss/7-ganache-test-koneksi.png)
+
+## 7. Python Web3 - Check Saldo 
+
+ <pre><code>
+ python get_balance.py </code></pre>
+
+![Sss](./ss/7-test-get-saldo.png)
+
+## 8. Python Web3 - Transaction
+
+ <pre><code>
+ python create_transaction.py </code></pre>
+
+![Sss](./ss/8-ubah-saldo.png)
+
+
+## 9. Check & Analisa Blok 
+
+### 9.1 Jumlah Blok bertambah setiap terjadi transaksi, bagian yg di stabilo kuning 
+![Sss](./ss/9-jumlah-blok-bertambah.png)
+
+
+### 9.2 List Blok yg terbuat dan tersimpan di chain ketika terjadi transaksi 
+![Sss](./ss/10-list-blok.png)
+
+
+### 9.3 List Transaction yg merupakan dasar pembuatan block
+![Sss](./ss/11-list-transaction.png)
+
+
+### 9.4 Detail blok berisikan data yg sudah di enkripsi dan diberikan sign signature hash
+![Sss](./ss/11-detail-block-with-hash-signature.png)
+
+
+
+## 10. Cara Kerja Penyimpan Data di BlockChain 
+
+Dalam jaringan blockchain, setiap transaksi baru ditambahkan ke blok baru, dan blok tersebut ditambahkan ke blockchain. Proses ini terjadi di seluruh node (server) dalam jaringan yang terdistribusi. Artinya, setiap node (server) dalam jaringan blockchain memiliki salinan lengkap dari seluruh blockchain, termasuk semua transaksi yang pernah terjadi.
+
+Setiap kali transaksi baru dibuat dan dikonfirmasi, transaksi tersebut ditambahkan ke blok terbaru. Setelah blok tersebut berhasil ditambangkan dan ditambahkan ke blockchain, blok ini akan disebarkan ke semua node (server) dalam jaringan. Semua node memperbarui salinan blockchain mereka untuk memasukkan blok baru ini.
 
 Berikut adalah proses umum bagaimana transaksi ditambahkan ke blockchain
 
@@ -79,12 +133,12 @@ Berikut adalah proses umum bagaimana transaksi ditambahkan ke blockchain
 
 
 
-## Membuat Server Blockchain on-premies 
+## 11. Membuat Server Blockchain on-premise
 
 Untuk membuat server blockchain on-premises, Anda dapat menggunakan beberapa framework yang populer dan mendukung desentralisasi serta keamanan. Berikut adalah beberapa framework yang bisa Anda pertimbangkan:
 
 1. Hyperledger Fabric:
-Hyperledger Fabric adalah platform blockchain yang dirancang untuk bisnis. Ini memungkinkan Anda untuk membuat jaringan permissioned (dengan izin) yang dapat diinstal di lingkungan on-premises2.
+Hyperledger Fabric adalah platform blockchain yang dirancang untuk bisnis. Ini memungkinkan Anda untuk membuat jaringan permissioned (dengan izin) yang dapat diinstal di lingkungan on-premise.
 Hyperledger Fabric mendukung modulitas dan dapat diintegrasikan dengan sistem bisnis yang ada.
 
 2. Ethereum:
@@ -98,6 +152,6 @@ Platform ini mendukung Kubernetes dan OpenShift untuk pengelolaan cluster blockc
 
 
 4. SettleMint:
-SettleMint menawarkan solusi on-premises untuk pengembangan blockchain. Anda dapat menginstal dan menjalankan aplikasi blockchain di infrastruktur Anda sendiri3.
+SettleMint menawarkan solusi on-premises untuk pengembangan blockchain. Anda dapat menginstal dan menjalankan aplikasi blockchain di infrastruktur Anda sendiri.
 SettleMint mendukung berbagai metode instalasi, termasuk air-gapped (tidak terhubung ke internet) dan Bring Your Own Cloud (BYOC)
 
