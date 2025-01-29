@@ -39,7 +39,10 @@ untuk enviroment development dan pengujian
   - [9.3 List Transaction yg merupakan dasar pembuatan block](#93-list-transaction-yg-merupakan-dasar-pembuatan-block)
   - [9.4 Detail blok berisikan data yg sudah di enkripsi dan diberikan sign signature hash](#94-detail-blok-berisikan-data-yg-sudah-di-enkripsi-dan-diberikan-sign-signature-hash)
 - [10. Cara Kerja Penyimpan Data di BlockChain](#10-cara-kerja-penyimpan-data-di-blockchain)
-- [11. Membuat Server Blockchain on-premise](#11-membuat-server-blockchain-on-premise)
+- [11. Create Account ](#11-create-account)
+- [12. History Account ](#12-history-account)
+- [13. List Account](#13-list-account)
+- [14. Membuat Server Blockchain on-premise](#11-membuat-server-blockchain-on-premise)
  
  
 ## 1. Upgrade Python Package Manager 
@@ -133,8 +136,31 @@ Berikut adalah proses umum bagaimana transaksi ditambahkan ke blockchain
 7. Jadi, setiap transaksi baru menambah satu entri dalam blok baru dan didistribusikan ke seluruh node dalam jaringan yang terdistribusi. Ini memastikan keamanan dan desentralisasi jaringan blockchain.
 
 
+## 11. Create Account  
 
-## 11. Membuat Server Blockchain on-premise
+<pre><code>
+ python create_account.py </code></pre>
+
+![Sss](./ss/13-create-account.png)
+
+
+## 12. History Account  
+
+<pre><code>
+ python history_account.py </code></pre>
+
+![Sss](./ss/13-history-account.png)
+
+
+## 13. List Account  
+
+<pre><code>
+ python list_account.py </code></pre>
+
+![Sss](./ss/12-list-account.png)
+
+
+## 14. Membuat Server Blockchain on-premise
 
 Untuk membuat server blockchain on-premises, Anda dapat menggunakan beberapa framework yang populer dan mendukung desentralisasi serta keamanan. Berikut adalah beberapa framework yang bisa Anda pertimbangkan:
 
