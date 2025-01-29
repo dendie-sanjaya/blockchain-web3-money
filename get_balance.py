@@ -11,7 +11,7 @@ else:
     print("Failed to connect to Ganache")
 
 # Replace this with the account address you want to check
-account_address = "0x05a135172c7a722E7001Cb29E1Ef478c7426Fe6f"
+account_address = "0x9064CE8365743E43399f6EEEB73E7fc0cc6e9127"
 
 # Get the balance of the account
 balance_wei = web3.eth.get_balance(account_address)
