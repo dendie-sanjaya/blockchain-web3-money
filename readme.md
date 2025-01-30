@@ -71,7 +71,7 @@ https://archive.trufflesuite.com/ganache/
 
 ## 4. Ganache Dashboard
 
-![Sss](./ss/7- ganache-check-port.png)
+![Sss](./ss/7-ganache-dashboard.png)
 
 
 ## 5. Ganache Check Service Port Running 
